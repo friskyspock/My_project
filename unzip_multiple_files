@@ -1,0 +1,8 @@
+#!/bin/bash
+
+for (( i = <start index>; i <= <end index>; i++ ))
+do
+echo running gunzip on <filename>_$i.hepmc.gz
+gunzip <path to file>/<filename>_$i.hepmc.gz
+echo done
+done
