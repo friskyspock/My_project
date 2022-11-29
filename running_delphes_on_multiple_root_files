@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# specify your path to delphes directory
+delphes_path=MG5_aMC_v3_4_0/Delphes
+
+# input path
+input_path=/media/aniket/AniketHD/cluster_download
+output_path=/media/aniket/AniketHD/delphes_output
+
+for (( i = 41; i <= 51; i++ ))
+do
+# ./{delphes excutable} {card path} {output file} {input file}
+./$delphes_path/DelphesHepMC2 $delphes_path/cards/delphes_card_CMS.dat $output_path/delphes_run_$i.root $input_path/delphes_run_02_$i.hepmc
+done
