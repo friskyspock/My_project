@@ -1,0 +1,5 @@
+# Change it to MakeConfig for it to work with Make
+# Change the paths are required
+
+DELPHES_DIR := /home/aniket/MG5_aMC_v3_4_0/Delphes
+FASTJET_DIR := /usr/local
