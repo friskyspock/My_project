@@ -1,0 +1,1 @@
+openvpn3 session-manage --config vpn/aniketms17@iisertvm.ac.in__ssl_vpn_config.ovpn --disconnect
