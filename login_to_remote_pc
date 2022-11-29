@@ -1,0 +1,1 @@
+sshpass -p '<password>' ssh -x <username>@<ip adress of pc>
